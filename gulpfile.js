@@ -15,7 +15,8 @@ var path = {
         css: 'dist/css/',
         img: 'dist/img/',
         fonts: 'dist/fonts/',
-        libs: 'dist/libs/'
+        libs: 'dist/libs/',
+        video: 'dist/video/'
     },
     src: {
         html: 'src/html/*.html',
@@ -23,7 +24,8 @@ var path = {
         scss: 'src/scss/*.scss',
         img: 'src/img/**/*.*',
         fonts: 'src/fonts/**/*.*',
-        libs: 'src/libs/**/*.*'
+        libs: 'src/libs/**/*.*',
+        video: 'src/video/**/*.*'
     },
     watch: {
         html: 'src/html/**/*.html',
@@ -31,7 +33,8 @@ var path = {
         scss: 'src/scss/**/*.scss',
         img: 'src/img/**/*.*',
         fonts: 'src/fonts/**/*.*',
-        libs: 'src/libs/**/*.*'
+        libs: 'src/libs/**/*.*',
+        video: 'src/video/**/*.*'
     },
     clean: './dist'
 };
