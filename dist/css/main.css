@@ -76,7 +76,7 @@
     color: #000;
     width: 42px;
     height: 30px;
-    background: url(../images/menu-icon.png) no-repeat;
+    background: url(../img/menu-icon.png) no-repeat;
     cursor: pointer;
     display: block;
     position: absolute;
@@ -815,7 +815,7 @@ body {
   padding-top: 500px; }
 
 #section1 .text_slide_right.two {
-  padding-top: 170px; }
+  padding-top: 230px; }
 
 #section1 .text_slide_right .txt {
   font-size: 24px;

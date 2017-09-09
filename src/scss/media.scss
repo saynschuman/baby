@@ -32,11 +32,12 @@
 }
 
 #section2 .text_center img{
- height: 518px;
+	height: 412px;
+	margin-top: 14px;
 }
 
 #section3 .text_slide_left div:nth-child(1) span {
-    padding-top: 103px;
+    padding-top: 230px;
 }
 
 
@@ -141,7 +142,7 @@
   #section1 .text_slide_left .zag {
     font-size: 28px;
     width: 100%;
-	padding-left: 13%;
+	padding-left: 0;
   }
 
   #section1 .text_slide_left .txt {
@@ -228,14 +229,10 @@
   }
 
 
-  #section3 .text_slide_right {
-    font-size: 28px;
-    line-height: 1.26;
-    padding-top:232px;
-    text-align: right;
-    float: right;
-    padding-right: 4.5%;
-    width: 383px;
+
+
+#section3 .text_slide_left div:nth-child(1) span {
+    padding-top: 111px;
 }
 
 }
@@ -277,7 +274,7 @@
   }
 
   #section1 .text_slide_right {
-    float: left;
+    float: right;
     padding-left: 8.3%;
     padding-right: 0%;
  }
@@ -300,7 +297,7 @@
 
 
   #section2 .text_left {
-     padding-top: 156px;
+     padding-top: 160px;
   }
 
   #section2 .text_right .item {
@@ -351,13 +348,14 @@
 }
 #section3 .text_slide_left {
 	padding-top: 150px;
+	padding-left: 50px;
 }
 
 }
 
 @media screen and (max-width: 768px) {
 
-	#section0 .text .zag {width: 100%;}
+	#section0 .text .zag {width: 84%;}
 	#section3 .text_slide_left {
     text-align: left;
     padding-left: 50px;
@@ -384,7 +382,7 @@
 	#section1 .text_slide_left span:nth-child(2) {padding-bottom: 10px;}
 	#section1 .text_slide_left .zag {padding-left: 0;}
 	#nav li {padding: 15px 0!important;}
-	#section0  .text {top: -200px;}
+	#section0  .text {top: -160px;}
 	#section1 .text_slide_right.one {
     padding-top: 307px;
     width: auto;
@@ -392,18 +390,19 @@
     left: 390px;
 	}
 	#section1 .text_slide_right.two {
-    padding-top: 0;
-    padding-left: 85px;
+    padding-top: 156px;
+    padding-left: 0px;
+    width: 230px;
 	}
-	#myVideo {
-    width: 140%;
+#myVideo {
+    width: 100%;
     object-fit: contain;
     bottom: 0;
     top: auto;
-    right: -30vw;
-	}
+    right: 0;
+}
 	#section3 #myVideo {
-    bottom: 55vw;
+    bottom: 85vw;
     right: -200px;
 	}
 	.scroll-btn {display: none;}
@@ -446,6 +445,15 @@
 #section2 .text_right {
    width: 224px;
    padding-left: 85px;
+}
+#section2 .text_left {
+	padding-top: 100px;
+}
+#section2 .text_center img {
+    height: 412px;
+    margin-top: 0;
+    position: absolute;
+    right: 99px;
 }
 
 }
@@ -491,7 +499,7 @@
     padding-top: 25px;
 	}
 	#section0 .text .zag {
-		font-size: 38px;
+		font-size: 30px;
 	}
 	#section0 .text {
 		top: -150px;
