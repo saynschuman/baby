@@ -25,7 +25,7 @@ $(document).ready(function () {
 	var slideIndex3 = 1;
 	var sliding = false;
 	var clb = false;
-	if ($(window).width() > '250'){
+	if ($(window).width() > '1280'){
 		$('#fullpage').fullpage({
 			sectionsColor: ['#e4d6c8', '#e4d6c8', '#e4d6c8', 'e4d6c8'],
 			anchors: ['main', 'characteristics', 'product', 'use',  'contact'],

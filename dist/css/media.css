@@ -147,6 +147,49 @@
   #section3 .text_slide_left div:nth-child(1) span {
     padding-top: 111px; } }
 
+@media screen and (max-width: 1280px) {
+  #desct {
+    display: none; }
+  body {
+    background-color: #e4d6c8;
+    position: relative; }
+  #mobile {
+    padding-top: 150px;
+    padding-left: 30px;
+    padding-right: 30px; }
+    #mobile .text .zag {
+      font-size: 34px;
+      color: #911266;
+      font-weight: bold;
+      line-height: 1.18;
+      display: block; }
+    #mobile .text .txt {
+      font-family: AvenirNext;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.25;
+      text-align: left;
+      color: #4a4a4a; }
+    #mobile .brush {
+      margin-top: 50px; }
+    #mobile .zag-sm {
+      font-family: AvenirNext;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: left;
+      color: #911266;
+      display: block;
+      text-transform: uppercase;
+      margin: 10px 0; }
+    #mobile .txt-sm {
+      font-family: AvenirNext;
+      font-size: 16px;
+      line-height: 1.25;
+      text-align: left;
+      color: #4a4a4a;
+      display: block;
+      margin-bottom: 10px; } }
+
 @media screen and (max-width: 1024px) {
   #nav li {
     margin: 10px; }
