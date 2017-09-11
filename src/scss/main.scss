@@ -87,7 +87,7 @@ body{
 }
 
 body {
-   position: fixed;
+   position: relative;
 }
 
 /*
@@ -471,4 +471,8 @@ body {
 .scroll-btn .scrollDown {
 	bottom: 0;
 	background-position: 0 -92px;
+}
+
+.header-mob {
+	display: none;
 }
