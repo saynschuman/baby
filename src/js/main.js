@@ -9,7 +9,7 @@ $(document).ready(function () {
 		}
 	});
 	$(document).on('click', '#contact', function(){
-		$("#contacts_bottom").animate({opacity:'1'},500);
+		$("#contacts_bottom").toggleClass('active');
 		$(".scroll-btn").hide();
 	});
 	$(document).on('click', '.close', function(){
@@ -209,5 +209,12 @@ $(document).ready(function () {
     $('#close-cont-b').click(function(e){
     	e.preventDefault();
     	$('.con-b').removeClass('active-cl');
+    })
+    $('#close-cont-b').click(function(e){
+    	e.preventDefault();
+    	$('.con-b').removeClass('active-cl');
+    })
+    $('#close-cont-b').click(function(){
+    	$('#contacts_bottom').removeClass('active');
     })
 });

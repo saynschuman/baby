@@ -20,7 +20,7 @@
     font-size: 54px;
     line-height: 1.19; }
   #section2 .text_center img {
-    height: 412px;
+    height: 463px;
     margin-top: 14px; }
   #section3 .text_slide_left div:nth-child(1) span {
     padding-top: 230px; }
@@ -28,7 +28,15 @@
     font-size: 38px;
     line-height: 1.26;
     width: 470px;
-    padding-top: 369px; } }
+    padding-top: 369px; }
+  #section2 .text_right .item {
+    font-size: 18px;
+    line-height: 1.67;
+    text-align: left;
+    color: #4a4a4a;
+    padding-bottom: 0px;
+    float: left;
+    padding-top: 25px; } }
 
 #contacts_bottom {
   position: absolute;
@@ -158,10 +166,10 @@
   .logo {
     padding-left: 34px; }
   #section1 .text_slide_left .txt {
-    padding-left: 0px;
+    padding-left: 30px;
     width: 309px; }
   #section1 .text_slide_left .txt_sm {
-    padding-left: 0px; }
+    padding-left: 30px; }
   .header div.logo img {
     width: 200px; }
   #section1 .text_slide_left {
@@ -218,9 +226,15 @@
     top: 150px; }
   #section3 .text_slide_left div:nth-child(1) span {
     padding-top: 20px; }
+  #section3 .text {
+    padding-left: 195px; }
   #section3 .text_slide_left {
     padding-top: 150px;
-    padding-left: 50px; } }
+    padding-left: 76px; }
+  #section3 .text_slide_left div:nth-child(2) {
+    padding-left: 23%; }
+  #section3 .text_slide_left {
+    width: 50%; } }
 
 @media screen and (max-width: 768px) {
   #section0 .text .zag {

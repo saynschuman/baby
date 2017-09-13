@@ -254,7 +254,7 @@ body {
     position: relative;
     display: block;
     text-align: left;
-    width: 222px;
+    width: 320px;
     float: right;
     padding-right: 3.3%;
 }
@@ -475,4 +475,12 @@ body {
 
 .header-mob {
 	display: none;
+}
+
+#contacts_bottom {
+	opacity: 0;
+}
+
+#contacts_bottom.active {
+	opacity: 1 !important;
 }
