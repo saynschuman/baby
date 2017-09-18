@@ -204,9 +204,7 @@ $(document).ready(function () {
     $('#scroll-с').click(function(e){
     	e.preventDefault();
     	$('.nav-mob').fadeOut(300);
-    	setTimeout(function(){
-    		$('.con-b').addClass('active-cl');
-    	}, 1500);
+    	
     	
     })
     $('#close-cont-b').click(function(e){

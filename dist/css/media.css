@@ -85,6 +85,10 @@
   padding-left: 20px;
   padding-right: 45px; }
 
+@media screen and (max-width: 1440px) {
+  #nav li {
+    padding-right: 0 !important; } }
+
 @media screen and (max-width: 1366px) {
   #nav li {
     padding-right: 0 !important; }
@@ -329,6 +333,8 @@
     right: 99px; } }
 
 @media screen and (max-width: 767px) {
+  #before-last-vid {
+    margin-bottom: 200px; }
   .logo {
     padding-left: 30px;
     padding-top: 20px; }
@@ -427,9 +433,10 @@
     top: 20px;
     right: 30px; }
   #contacts_bottom {
-    position: fixed;
+    position: absolute;
     left: 0;
-    opacity: 0; }
+    opacity: 1;
+    margin-bottom: -192px; }
   #contacts_bottom.active-cl {
     opacity: 1 !important;
     position: fixed;
