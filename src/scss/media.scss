@@ -245,6 +245,12 @@
 
 }
 
+@media screen and (max-height: 875px) {
+	#section3 .text_slide_left div:nth-child(1) span {
+		padding-top: 96px;
+	}
+}
+
 @media screen and (max-width: 1024px) {
 
 	#nav li {margin: 10px;}
@@ -746,7 +752,6 @@
 		width: 100%;
 		position: relative;
 	    mix-blend-mode: multiply;
-	    background-color: #f3e9df;
 	    background-size: 100% 100%;
 	    background-position: center center;
 	    background-size: contain;

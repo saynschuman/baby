@@ -41,6 +41,14 @@ body{
 	color: #333;
 	color: rgba(0,0,0,0.5);
 }
+
+body {
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility:    hidden;
+  -ms-backface-visibility:     hidden;
+}
+
 .wrap{
 	margin-left: auto;
 	margin-right: auto;
@@ -118,8 +126,8 @@ body {
 		right:0;
 		width: 87%;
 		/* height: 100%; */
-    mix-blend-mode: multiply;
-    background-color: rgb(243, 233, 223);
+    // mix-blend-mode: multiply;
+    // background-color: rgb(243, 233, 223);
 		background-size: 100% 100%;
   		background-position: center center;
   		background-size: contain;
